@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LL"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="250dp"
+        android:onClick="yair1"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:text="Text" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="51dp"
+        android:layout_height="92dp"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="250dp"
+        android:onClick="yair2"
+        android:layout_height="0dp"
+        android:layout_weight="0.03"
+        android:text="Text + Image" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="250dp"
+        android:onClick="yair3"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:text="Text + Image + Button" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="37dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="250dp"
+        android:onClick="yair4"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:text="Text + Image + Two Button" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="250dp"
+        android:onClick="yair5"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:text="Text + Image + Three Button" />
+
+
+</LinearLayout>
